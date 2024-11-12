@@ -81,7 +81,8 @@ if __name__ == "__main__":
     dotenv.load_dotenv()
     start = time.time()
     OPENAPI_KEY = os.environ.get("OPENAI_API_KEY")
-    imgToJson(sys.argv[1])
+    #imgToJson(sys.argv[1])
+    imgToJson("./Img/1.jfif")
     end = time.time()
     print(f"start = {start}, end={end} : == {end - start}")
 
